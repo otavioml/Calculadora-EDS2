@@ -5,7 +5,7 @@ public class Calculadora {
     }
 
     public long subtrair(long a, long b){
-        return a + b;
+        return a - b;
     }
 
 }
