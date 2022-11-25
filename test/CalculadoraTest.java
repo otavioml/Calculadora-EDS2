@@ -1,8 +1,9 @@
 import static org.junit.Assert.assertEquals;
 
 import org.junit.*;
+import junit.framework.TestCase;
 
-public class CalculadoraTest {
+public class CalculadoraTest  extends TestCase{
 
     Calculadora calculadora = new Calculadora();
 
