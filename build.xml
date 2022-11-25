@@ -34,7 +34,7 @@
         description="generate the distribution">
     <mkdir dir="${dist}/lib"/>
 
-    <jar jarfile="${dist}/lib/Calculadora-EDS2${DSTAMP}.jar" basedir="${build}"/>
+    <jar jarfile="${dist}/lib/Calculadora-${DSTAMP}.jar" basedir="${build}"/>
   </target>
 
   <target name="limpeza"
