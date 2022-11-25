@@ -69,7 +69,7 @@
         </junit>        
   </target>
 
-  <target name="rodar-teste" depends="test">
+  <target name="rodar-teste" depends="classeTest">
     <delete verbose="${TALK}">
       <fileset dir="${tst-dir}" includes="**/*.class" />
       <fileset dir="" includes="TEST-CalculadoraTest.xml" />
